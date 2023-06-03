@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -12,8 +13,8 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     font-size: 24px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 li {
@@ -26,4 +27,16 @@ li {
 ul {
     display: flex;
     gap: 16px;
+}
+
+.section-one {
+    padding: 64px;
+
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.section-one img {
+    background-color: purple;
+    width: 250px;
 }
