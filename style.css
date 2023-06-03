@@ -30,13 +30,24 @@ ul {
 }
 
 .section-one {
+    display: flex;
+    justify-content: space-between;
     padding: 64px;
 
     background-color: #1F2937;
     color: #f9faf8;
 }
 
-.section-one img {
-    background-color: purple;
-    width: 250px;
+.s1-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.placeholder {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: grey;
 }
