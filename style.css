@@ -11,5 +11,9 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     font-size: 24px;
+}
 
+li {
+    list-style: none;
+    text-decoration: none;
 }
