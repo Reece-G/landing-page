@@ -40,7 +40,20 @@ ul {
 
 .s1-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.s1-container div {
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
 }
 .placeholder {
     width: 500px;
