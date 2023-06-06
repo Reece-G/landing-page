@@ -98,12 +98,29 @@ button {
     align-items: center;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+}
 .s2-content{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 64px;
+}
+
+.s2-content > div {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex: 0 1 150px;
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
 }
 img {
     width: 150px;
-    height: 150px;
 }
