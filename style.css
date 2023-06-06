@@ -32,7 +32,7 @@ li {
 ul {
     display: flex;
     gap: 16px;
-}
+} 
 
 .section-one {
     display: flex;
@@ -88,4 +88,16 @@ button {
     border-radius: 7.5px;
     border-style: none;
     padding: 5px 20px 5px 20px;
+}
+
+.section-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
 }
