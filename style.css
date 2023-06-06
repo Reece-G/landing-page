@@ -93,10 +93,16 @@ button {
 .section-two {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.s2-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 img {
     width: 150px;
     height: 150px;
