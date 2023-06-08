@@ -155,3 +155,26 @@ img {
     justify-content: center;
     padding: 20px;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    margin: 32px 64px;
+    border-radius: 15px;
+
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.section-four button {
+    border-color: #f9faf8;
+}
+
+h3 {
+    flex: 1 1;
+}
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    padding: 32px 15px;
+}
