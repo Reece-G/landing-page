@@ -37,7 +37,7 @@ ul {
 .section-one {
     display: flex;
     justify-content: space-between;
-    padding: 64px;
+    padding: 64px 400px;
     gap: 16px;
 
     background-color: #1F2937;
@@ -73,6 +73,7 @@ h2 {
     width: 500px;
     height: 250px;
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
 
