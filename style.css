@@ -32,7 +32,7 @@ li {
 ul {
     display: flex;
     gap: 16px;
-} 
+}
 
 .section-one {
     display: flex;
@@ -158,9 +158,10 @@ img {
 
 .section-four {
     display: flex;
-    justify-content: center;
-    margin: 32px 64px;
+    justify-content: space-between;
+    margin: 64px 128px;
     border-radius: 15px;
+    padding: 32px 64px;
 
     background-color: #3882f6;
     color: #f9faf8;
@@ -170,11 +171,11 @@ img {
     border-color: #f9faf8;
 }
 
-h3 {
+h4 {
     flex: 1 1;
+    margin: 0px;
 }
-.sign-up-box {
-    display: flex;
-    justify-content: center;
-    padding: 32px 15px;
+
+.sign-up-box div {
+    font-size: small;
 }
